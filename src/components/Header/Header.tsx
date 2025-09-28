@@ -9,8 +9,8 @@ const Header: React.FC = () => {
 
         {/* <!-- Desktop Navigation --> */}
         <nav className="hidden md:flex space-x-10 text-gray-600 font-medium">
-          <a href="#about" className="hover:text-gray-900 transition-colors">
-            About
+          <a href="#porfolio" className="hover:text-gray-900 transition-colors">
+            Portfolio
           </a>
           <a
             href="#experience"
@@ -18,8 +18,8 @@ const Header: React.FC = () => {
           >
             Experience
           </a>
-          <a href="#projects" className="hover:text-gray-900 transition-colors">
-            Projects
+          <a href="#about" className="hover:text-gray-900 transition-colors">
+            About
           </a>
           <a href="#contact" className="hover:text-gray-900 transition-colors">
             Contact
@@ -53,10 +53,10 @@ const Header: React.FC = () => {
         <div className="flex flex-col items-center justify-center h-full">
           <nav className="flex flex-col items-center space-y-8 text-2xl font-semibold">
             <a
-              href="#about"
+              href="#portfolio"
               className="mobile-link hover:text-gray-900 transition-colors"
             >
-              About
+              Portfolio
             </a>
             <a
               href="#experience"
@@ -65,10 +65,10 @@ const Header: React.FC = () => {
               Experience
             </a>
             <a
-              href="#projects"
+              href="#about"
               className="mobile-link hover:text-gray-900 transition-colors"
             >
-              Projects
+              About
             </a>
             <a
               href="#contact"

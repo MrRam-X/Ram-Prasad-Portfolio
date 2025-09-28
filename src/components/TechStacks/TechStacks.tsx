@@ -3,7 +3,7 @@ import React from "react";
 const TechStacks: React.FC = () => {
   return (
     <section id="tech-stacks">
-      <div className="container mx-auto px-4 mt-16 md:mt-24">
+      <div className="container mx-auto px-4 py-20">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-6 md:gap-8">
           <p className="text-xl font-bold text-gray-700">Tech Stack</p>
           <div className="hidden lg:block h-8 border-l border-gray-300"></div>

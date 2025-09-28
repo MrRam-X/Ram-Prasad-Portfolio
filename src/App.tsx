@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Profile from "./components/Profile/Profile";
 import TechStacks from "./components/TechStacks/TechStacks";
 
@@ -20,6 +21,9 @@ function App() {
 
         {/* About Section */}
         <About />
+
+        {/* Portfolio Section */}
+        <Portfolio />
       </main>
 
       {/* Footer */}
