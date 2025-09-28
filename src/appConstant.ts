@@ -138,7 +138,7 @@ export const PORTFOLIO_PROJECTS = [
         className: "bg-orange-100",
       },
     ],
-    liveDemoUrl: "",
-    sourceCodeUrl: "",
+    liveDemoUrl: "https://plantogardens.netlify.app/",
+    sourceCodeUrl: "https://github.com/MrRam-X/Virtual-Plant-Nursery-Client",
   },
 ];
