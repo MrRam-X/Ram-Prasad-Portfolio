@@ -33,7 +33,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         />
 
         {/* Dark Backdrop Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-60 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 ease-in-out origin-top"></div>
+        <div className="absolute inset-0 bg-black/60 transform scale-y-0 group-hover:scale-y-100 transition-transform duration-500 ease-in-out origin-top"></div>
 
         {/* Centered Buttons */}
         <div className="absolute inset-0 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
