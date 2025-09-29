@@ -1,8 +1,9 @@
 import React from "react";
+import laptopImage from '../../assets/images/laptop-background.jpg'
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 md:py-28 bg-slate-50">
+    <section id="about" className="py-20 md:py-28">
       <div className="container mx-auto px-6 md:px-8 lg:max-w-4xl">
         {/* Section Title */}
         <div className="text-center mb-12">
@@ -17,12 +18,12 @@ const About: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative mx-auto w-fit">
               <img
-                src="./assets/images/laptop-background.jpg"
+                src={laptopImage}
                 alt="A professional headshot of John Doe"
                 className="rounded-xl shadow-2xl w-64 h-64 md:w-80 md:h-80 object-cover"
               />
               {/* Decorative accent shape */}
-              <div className="absolute -bottom-4 -right-4 w-full h-full border-4 border-indigo-500 rounded-xl -z-10 transform translate-x-2 translate-y-2"></div>
+              <div className="absolute -bottom-4 -right-4 w-full h-full border-4 border-white rounded-xl -z-10 transform translate-x-2 translate-y-2"></div>
             </div>
           </div>
 

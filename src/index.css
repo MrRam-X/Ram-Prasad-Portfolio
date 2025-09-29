@@ -2,7 +2,10 @@
 
 @import "tailwindcss";
 
-/* 3. Define custom theme tokens */
+/* Define custom theme tokens */
 @theme {
   --font-outfit: "Outfit", ui-sans-serif, system-ui, sans-serif;
 }
+
+@custom-variant hover (&:hover);
+
